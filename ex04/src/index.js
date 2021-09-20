@@ -1,11 +1,11 @@
-myVariable = "I am here";
-
 function localScope() {
 
     var myVariable = "I am here";
+    console.log('inside localScope', myVariable);
 
 } 
 
+localScope();
 
 if (typeof myVariable != "undefined") {
     
