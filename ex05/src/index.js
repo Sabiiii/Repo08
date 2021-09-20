@@ -6,7 +6,7 @@ function myDress() {
 
     return dress; 
 }
-
+ 
 myDress();
 
 console.log(dress);
