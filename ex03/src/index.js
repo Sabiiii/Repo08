@@ -7,9 +7,6 @@ function function1() {
 var myGlobalVariable = 10;
 
 
-
-
-
 function function2() {
 
     var result = "";
