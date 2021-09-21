@@ -1,11 +1,15 @@
 
-var randomNumberBetween0and29 = Math.floor(Math.random() * 30);
-
 function randomInteger() {
 
+    Math.floor(Math.random() * 30);
 
-    return Math.floor(Math.random() * 10);
+    return Math.floor(Math.random());
 
 }
 
+randomInteger()
+
+console.log(randomInteger());
 module.exports = randomInteger;
+
+
